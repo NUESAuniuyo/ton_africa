@@ -34,74 +34,87 @@ const itemVariants = {
 const teamMembers = [
   {
     id: 1,
-    name: "Any.Ton",
+    name: "Andy.Ton",
     role: "Founder & CEO",
     image: "/images/ton10.jpg",
     social: {
-      twitter: "#",
-      github: "#",
-      linkedin: "#",
-      telegram: "#"
+      twitter: "https://x.com/andii__krypt?s=21",
+     telegram: "@andy_krypto"
     }
   },
+
   {
     id: 2,
-    name: "Favour Toni",
-    role: "Lead Developer",
-    image: "/images/ton11.jpg",
+    name: "WondersKrypt",
+    role: "Co Founder",
+    image: "/images/ton002.jpg",
     social: {
-      twitter: "#",
-      github: "#",
-      linkedin: "#",
-      telegram: "#"
+      twitter: "http://t.me/WondersKrypt",
+      telegram: "@WondersKrypt"
     }
   },
   {
     id: 3,
-    name: "Debest creative",
-    role: "Graphics Designer",
-    image: "/images/ton12.jpg",
+    name: " Favour toni",
+    role: "lead developer",
+    image: "/images/ton11.jpg",
     social: {
-      twitter: "#",
-      github: "#",
-      linkedin: "#",
-      telegram: "#"
+      twitter: "@FavourToni",
+     telegram: "@Fetony"
     }
   },
+
   {
     id: 4,
     name: "Destiny Sunday",
     role: "Social media manager",
     image: "/images/ton13.jpg",
     social: {
-      twitter: "@Destinysunday00",
-      github: "#",
-      linkedin: "#",
-      telegram: "#"
+      twitter: "http://t.me/Destinysunday00",
+     telegram: "@Destinysunday00"
     }
   },
   {
     id: 5,
-    name: "",
+    name: "Mickystonecrypt",
+    role: "Educator 1",
+    image: "/images/ton003.jpg",
+    social: {
+      twitter: "https://x.com/mickystonecrypt?s=21",
+      telegram: ""
+    }
+  },
+
+  {
+    id: 6,
+    name: "Eric Wots",
+    role: "Educator 2",
+    image: "/images/ton005.jpg",
+    social: {
+      twitter: "https://x.com/eric_wots?s=21",
+      telegram: ""
+    }
+  },
+
+  {
+    id: 7,
+    name: "Debest creative",
+    role: "Graphics designer",
+    image: "/images/ton.jpg",
+    social: {
+      twitter: "@debestcreative0",
+      telegram: "@Debest_Creative"
+    }
+  },
+
+  { 
+    id: 8,
+    name: "OG Oluwa",
     role: "Contributor",
     image: "/images/ton.jpg",
     social: {
-      twitter: "#",
-      github: "#",
-      linkedin: "#",
-      telegram: "#"
-    }
-  },
-  {
-    id: 6,
-    name: "",
-    role: "poject Manager",
-    image: "/images/ton.jpg",
-    social: {
-      twitter: "#",
-      github: "#",
-      linkedin: "#",
-      telegram: "#"
+      twitter: "https://x.com/ogoluwa_?s=21",
+     telegram: "@Protonode223"
     }
   },
 ];

@@ -17,7 +17,7 @@ function Header() {
           <div className="flex items-center space-x-8">
             <Link to="/" className="flex items-center space-x-2">
               <motion.img 
-                src="/images/ton1.jpg" 
+                src="/images/ton0.jpg" 
                 alt="TON AFRIC Logo" 
                 className="h-12 w-12 rounded-full object-cover border-2 border-white shadow-lg"
                 whileHover={{ scale: 1.05, rotate: 5 }}
