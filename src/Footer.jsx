@@ -14,11 +14,9 @@ const Footer = () => {
 ];
 
   const socialLinks = [
-    { icon: <FaTwitter />, href: "#" },
-    { icon: <FaTelegram />, href: "#" },
-    { icon: <FaGithub />, href: "#" },
-    { icon: <FaLinkedin />, href: "#" }
-  ];
+    { icon: <FaTwitter />, href: "https://x.com/TonAfric?t=3ydALU2nYUBRs_8qZBl97Q&s=09" },
+    { icon: <FaTelegram />, href: "https://t.me/ton_afric" },
+   ];
  
   return (
     <footer className="bg-gray-900 text-white py-8">

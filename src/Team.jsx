@@ -39,7 +39,7 @@ const teamMembers = [
     image: "/images/ton10.jpg",
     social: {
       twitter: "https://x.com/andii__krypt?s=21",
-     telegram: "@andy_krypto"
+     telegram: "https://t.meandy_krypto"
     }
   },
 
@@ -50,7 +50,7 @@ const teamMembers = [
     image: "/images/ton002.jpg",
     social: {
       twitter: "http://t.me/WondersKrypt",
-      telegram: "@WondersKrypt"
+      telegram: "https://t.me/WondersKrypt"
     }
   },
   {
@@ -59,8 +59,8 @@ const teamMembers = [
     role: "lead developer",
     image: "/images/ton11.jpg",
     social: {
-      twitter: "@FavourToni",
-     telegram: "@Fetony"
+      twitter: "https://x.com/FavourToni?t=OQLbXlFExlTVI_I2Hts9Jw&s=09",
+     telegram: "https://t.me/Fetony"
     }
   },
 
@@ -70,8 +70,8 @@ const teamMembers = [
     role: "Social media manager",
     image: "/images/ton13.jpg",
     social: {
-      twitter: "http://t.me/Destinysunday00",
-     telegram: "@Destinysunday00"
+      twitter: "https://x.com/Destinysunday00",
+     telegram: "https://t.me/Destinysunday00"
     }
   },
   {
@@ -81,7 +81,7 @@ const teamMembers = [
     image: "/images/ton003.jpg",
     social: {
       twitter: "https://x.com/mickystonecrypt?s=21",
-      telegram: ""
+      telegram: "https://t.me/tongiftdegen"
     }
   },
 
@@ -92,7 +92,7 @@ const teamMembers = [
     image: "/images/ton005.jpg",
     social: {
       twitter: "https://x.com/eric_wots?s=21",
-      telegram: ""
+      telegram: "https://t.me/Eric_Wots"
     }
   },
 
@@ -100,10 +100,10 @@ const teamMembers = [
     id: 7,
     name: "Debest creative",
     role: "Graphics designer",
-    image: "/images/ton.jpg",
+    image: "/images/ton12.jpg",
     social: {
-      twitter: "@debestcreative0",
-      telegram: "@Debest_Creative"
+      twitter: "https://x.com/debestcreative0",
+      telegram: "https://t.me/Debest_Creative"
     }
   },
 
@@ -111,10 +111,10 @@ const teamMembers = [
     id: 8,
     name: "OG Oluwa",
     role: "Contributor",
-    image: "/images/ton.jpg",
+    image: "/images/ton004.jpg",
     social: {
       twitter: "https://x.com/ogoluwa_?s=21",
-     telegram: "@Protonode223"
+     telegram: "https://t.me/Protonode223"
     }
   },
 ];
@@ -175,16 +175,16 @@ const Team = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-              >
-                <div className="h-64 w-full bg-gray-100 flex items-center justify-center overflow-hidden">
-                  <motion.img 
-                    src={member.image} 
-                    alt={member.name}
-                    className="max-h-full max-w-full object-contain p-4"
-                    whileHover={{ scale: 1.05 }}
-                    transition={{ duration: 0.3 }}
-                  />
-                </div>
+>
+                  <div className="h-52 w-full bg-blue-100 flex items-center justify-center p-4">
+                    <motion.img 
+                      src={member.image} 
+                      alt={member.name}
+                      className="max-h-full max-w-full object-contain"
+                      whileHover={{ scale: 1.05 }}
+                      transition={{ duration: 0.3 }}
+                    /> 
+                  </div>
                 <div className="p-6 text-center flex-grow flex flex-col">
                   <h3 className="text-xl font-bold text-gray-800 mb-1">{member.name}</h3>
                   <p className="text-primary font-medium mb-4">{member.role}</p>
